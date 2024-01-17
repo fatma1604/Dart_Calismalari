@@ -16,7 +16,8 @@ void main(List<String> args) {
       String elmanString = "elman$j";
 
       if (elmanCounts.containsKey(j)) {
-        elmanCounts[j] = elmanCounts[j]+1; // Increment the count by 1
+        // elmanCounts[j] = elmanCounts[j]+1; //
+        //projenin bu kısmı çalışmıyor
       } else {
         elmanCounts[j] = 1;
       }
@@ -36,7 +37,7 @@ void main(List<String> args) {
 
   // 1 ile 60 arasındaki sayıları 1.000.000 kez oluştur
   for (int i = 0; i < 1000000; i++) {
-    int sayi =Random().nextInt(60) + 1;
+    int sayi = Random().nextInt(60) + 1;
 
     // Oluşturulan sayıları map'te sakla
     sayiSayilari.update(sayi, (value) => value + 1, ifAbsent: () => 1);

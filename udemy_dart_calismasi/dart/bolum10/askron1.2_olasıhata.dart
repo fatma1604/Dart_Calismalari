@@ -5,8 +5,9 @@ void main(List<String> args) {
   sonuc.then((String value) => print(value)).catchError((hata) {
     //burda isse catch eroro yapısı çalışıcak
     print(hata);
-  }).whenComplete(() => print("ekmek alma biti"));//hata olsun olmasın çalışıcak
-  print("peynir zwytin hazırlanır");
+  }).whenComplete(
+      () => print("ekmek alma biti")); //hata olsun olmasın çalışıcak
+  print("peynir zeytin hazırlanır");
   print("kahvaltı hazılanır");
 }
 

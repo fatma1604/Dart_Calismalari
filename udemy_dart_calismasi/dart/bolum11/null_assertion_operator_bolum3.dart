@@ -5,7 +5,7 @@ main(List<String> args) {
 
   List<int?> nullDegerTutanListe = [2, 3, null];
 
-  //int a = nullolabilirAmadegil!;
+  int a = nullolabilirAmadeğil!;
   int b = nullDegerTutanListe.first!;
   int c = nullDondurebilirAmaDondurmeyecek()!.abs();
 }

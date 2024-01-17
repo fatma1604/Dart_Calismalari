@@ -1,5 +1,3 @@
-
-
 void main(List<String> args) {
   print("Annee çocuğu ekmek almaya gönderir");
   Future<String> sonuc =
@@ -11,7 +9,7 @@ void main(List<String> args) {
   // benim ssonucum hazır oldunda null aypısını tetikle
   //sonuc.then((value) => null)
   //olassı bir hata çıktında catchError(onError)
-  print("peynir zwytin hazırlanır");
+  print("peynir zeytin hazırlanır");
   print("kahvaltı hazılanır");
 }
 
